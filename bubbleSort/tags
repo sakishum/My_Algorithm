@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DataCompareFunc	bubbleSort.h	/^typedef int* (*DataCompareFunc)(void*ctx, void* data);$/;"	t
+RET_FAIL	bubbleSort.h	/^    RET_FAIL,$/;"	e	enum:_Ret
+RET_OK	bubbleSort.h	/^	RET_OK,$/;"	e	enum:_Ret
+RET_OOM	bubbleSort.h	/^    RET_OOM,$/;"	e	enum:_Ret
+RET_PARAMS	bubbleSort.h	/^    RET_PARAMS,$/;"	e	enum:_Ret
+RET_STOP	bubbleSort.h	/^    RET_STOP,$/;"	e	enum:_Ret
+Ret	bubbleSort.h	/^Ret;$/;"	t	typeref:enum:_Ret
+SK_BubbleSort	main.cpp	/^void SK_BubbleSort(int*r, int len, int start)$/;"	f
+_Ret	bubbleSort.h	/^typedef enum _Ret$/;"	g
+__BUBBLESORT_H__	bubbleSort.h	/^#define __BUBBLESORT_H__$/;"	d
+bubble_sort	bubbleSort.cpp	/^Ret bubble_sort(void** array, size_t nr, DataCompareFunc cmp)$/;"	f
+bubble_sort	bubbleSort.h	/^Ret bubble_sort(void** array, size_t nr, DataCompareFunc cmp);$/;"	p
+int_cmp	main.cpp	/^int int_cmp(void* a, void* b)$/;"	f
+int_cmp_invert	main.cpp	/^int int_cmp_invert(void* a, void* b)$/;"	f
+main	main.cpp	/^int main(void)$/;"	f
+return_if_fail	bubbleSort.h	/^#define return_if_fail(/;"	d
+return_val_if_fail	bubbleSort.h	/^#define return_val_if_fail(/;"	d

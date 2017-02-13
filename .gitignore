@@ -1,4 +1,3 @@
-<<<<<<< 4b764420c6a2ee5bb04eece036bd62cc15a0a3f3
 # Compiled Object files
 *.slo
 *.lo
@@ -28,7 +27,5 @@
 *.exe
 *.out
 *.app
-=======
 test
 *.swap
->>>>>>> first commit
